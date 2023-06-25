@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookShelf</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/bf083a8994.js" crossorigin="anonymous"></script>
+
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <a href="#" class="logo"><i class="bx fa-solid fa-book"></i>Book Shelf</a>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#new">Popular</a></li>
+            <li><a href="#product">Products</a></li>
+            <li><a href="#reviews">Ratings</a></li>
+        </ul>
+
+        <!-- icons -->
+        <div class="header-icons">
+            <i class="ic fa-solid fa-bars" id="menu-icon"></i>
+            <i class="ic fa-solid fa-magnifying-glass" id="search-icon"></i>
+            <i class="ic fa-solid fa-cart-shopping" id="cart-icon"></i>
+            <i class="ic fa-solid fa-user" id="user-icon"></i>
+
+        </div>
+
+        <!-- Search Box -->
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="Search Here...">
+        </div>
+
+        <!-- cart box -->
+    <div class="cart">
+        <!-- box-1 -->
+        <div class="box">
+            <img src="images/img10.jpg" alt="">
+            <div class="text">
+                <h3>Ikkigai</h3>
+                <span>Rs.166</span>
+            </div>
+            <i class="bx fa-solid fa-trash"></i>
+        </div>
+
+        <!-- box-2 -->
+        <div class="box">
+            <img src="images/book2.jpeg" alt="">
+            <div class="text">
+                <h3>The Kite Runner</h3>
+                <span>Rs.172</span>
+            </div>
+            <i class="bx fa-solid fa-trash"></i>
+        </div>
+
+        <h2>Total: Rs.338/-</h2>
+        <a href="#" class="btn">Checkout</a>
+    </div>
+
+    <!-- user -->
+    <div class="user">
+        <h2>Login Now</h2>
+        <input type="email" placeholder="Your Email..">
+        <input type="password" name="" id="" placeholder="Password">
+        <input type="submit" value="Login" class="login-btn">
+        <p>Forget Password <a href="#">Reset Now</a></p>
+        <p>Don't have account <a href="#">Create One</a></p>
+    </div>
+
+    </header>
+
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Shop Now</span>
+            <h1>Order your<br>Books</h1>
+            <p style="padding-bottom: 1rem;">Open a book, open your mind, and open up to a world of possibilities</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="home-img">
+            <img src="images/image1.jpeg" alt="">
+        </div>
+    </section>
+
+    <!-- Popular -->
+    <section class="new" id="new">
+        <div class="heading">
+            <h1>Best <span>Sellers</span></h1>
+        </div>
+        <div class="swiper new-arrival">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/sell1.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/sell2.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/sell3.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/sell4.png" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/sell5.png" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/sell6.png" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product -->
+    <section class="product" id="product">
+        <div class="heading">
+            <h1>Our <span>Products</span></h1>
+        </div>
+        <div class="product-container">
+            <div class="box">
+                <img src="images/img10.jpg" alt="">
+                <div class="content">
+                    <h2>Ikigai</h2>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                        <!-- <i class="fa-regular fa-star"></i> -->
+                    </div>
+                    <span>Rs.166</span>
+                    <i class="car fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img1.png" alt="">
+                <div class="content">
+                    <h2>The Night Circus</h2>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                    </div>
+                    <span>Rs.331</span>
+                    <i class="car fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img2.jpg" alt="">
+                <div class="content">
+                    <h2>The Krishna Key</h2>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <span>Rs.293</span>
+                    <i class="car fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img3.jpg" alt="">
+                <div class="content">
+                    <h2>Sapiens</h2>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                    </div>
+                    <span>Rs.436</span>
+                    <i class="car fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img4.jpg" alt="">
+                <div class="content">
+                    <h2>The Snake Head</h2>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <span>Rs.1169</span>
+                    <i class="car fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img5.jpg" alt="">
+                <div class="content">
+                    <h2>The Journey to the Center of the Earth</h2>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                    </div>
+                    <span>Rs.855</span>
+                    <i class="car fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img6.jpg" alt="">
+                <div class="content">
+                    <h2>The Secret</h2>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <span>Rs.238</span>
+                    <i class="car fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img9.jpg" alt="">
+                <div class="content">
+                    <h2>The Psychology of Money</h2>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                    </div>
+                    <span>Rs.190</span>
+                    <i class="car fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/sell1.jpg" alt="">
+                <div class="content">
+                    <h2>The Alchemist</h2>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                    </div>
+                    <span>Rs.650</span>
+                    <i class="car fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img12.jpg" alt="">
+                <div class="content">
+                    <h2>To Kill a Mockingbird</h2>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                    </div>
+                    <span>Rs.264</span>
+                    <i class="car fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews" id="reviews">
+        <div class="heading">
+            <h1>Our <span> Customers</span></h1>
+        </div>
+        <div class="reviews-container">
+            <div class="box">
+                <img src="images/r1.jpg" alt="">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                </div>
+                <p>"I absolutely love shopping on this e-commerce website! The product selection is extensive, the prices are great, and the customer service is top-notch. Highly recommended!"</p>
+                <h2>Vinod</h2>
+            </div>
+            
+
+            <div class="box">
+                <img src="images/r4.jpg" alt="">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>"User-friendly interface, but could use more detailed product descriptions."</p>
+                <h2>Aadhira</h2>
+            </div>
+            
+
+            <div class="box">
+                <img src="images/r2.jpg" alt="">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>"I'm impressed by the excellent user interface and seamless navigation of this website. Finding what I needed was a breeze, and the checkout process was smooth. Kudos to the team!"</p>
+                <h2>Nagarjuna Reddi</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Book Shelf</h2>
+            <p>"A book is a dream that you hold in your hand."</p>
+
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>  
+        
+          <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">FAQ</a></li>
+          </div>
+        
+          <div class="footer-box">
+            <h3>Our Branches</h3>
+            <li><a href="#">India</a></li>
+            <li><a href="#">Canada</a></li>
+            <li><a href="#">United States</a></li>
+            <li><a href="#">Japan</a></li>
+            <li><a href="#">German</a></li>
+          </div>
+          
+        <div class="footer-box">
+            <h3>Payment Method</h3>
+            <div class="payment">
+                <img src="images/visa.png" alt="">
+                <img src="images/mastercard.png" alt="">
+                <img src="images/paypal.png" alt="">
+                <img src="images/american.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- copyright -->
+    <div class="copyright">
+        <p>Copyright © 2023 Book Shelf. All rights reserved.</p>
+    </div>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  
+  
+  <!-- script -->
+    <script src="main.js"></script>
+</body>
+</html>
